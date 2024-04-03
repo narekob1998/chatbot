@@ -9,4 +9,3 @@ huggingface_hub
 boto3
 st-files-connection
 s3fs
-io
