@@ -66,7 +66,7 @@ def user_input(user_question):
     st.write("Reply: ", response["output_text"])
 
 def main():
-    port = int(os.environ.get("PORT", 5000))
+    port = int(os.environ.get("PORT", 8501))
     st.port(port)
     st.set_page_config("Chat PDF")
     st.header("Chat with Narek's Resume(Google Gemini)")
