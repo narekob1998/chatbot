@@ -6,3 +6,7 @@ PyPDF2
 faiss-cpu
 langchain_google_genai
 huggingface_hub
+boto3
+st-files-connection
+s3fs
+io
