@@ -12,7 +12,6 @@ from dotenv import load_dotenv
 from langchain import HuggingFaceHub
 
 load_dotenv()
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
 os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
