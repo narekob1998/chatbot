@@ -15,7 +15,10 @@ import boto3
 from botocore.config import Config
 from st_files_connection import FilesConnection
 load_dotenv()
+<<<<<<< HEAD
 
+=======
+>>>>>>> c99d17ab0eabcca4d6c5de9f8924a55fc773fdf3
 os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
