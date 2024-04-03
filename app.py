@@ -66,12 +66,13 @@ def user_input(user_question):
     st.write("Reply: ", response["output_text"])
 
 def main():
+    port = int(os.environ.get("PORT", 5000))
+    st.port(port)
     st.set_page_config("Chat PDF")
     st.header("Chat with Narek's Resume(Google Gemini)")
     conn = st.connection('s3', type=FilesConnection)
     user_question = st.text_input("Ask a Question from the PDF Files")
-    port = int(os.environ.get("PORT", 5000))
-    st.port(port)
+    
 
     if user_question:
         pdf_keys = []  # Initialize an empty list to store PDF file keys
