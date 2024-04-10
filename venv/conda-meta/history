@@ -61,3 +61,27 @@
 +conda-forge/osx-arm64::tornado-6.4-py310hd125d64_0
 +conda-forge/osx-arm64::zeromq-4.3.5-hebf3989_1
 # update specs: ['ipykernel']
+==> 2024-04-10 18:52:44 <==
+# cmd: /Users/narekbayramyan/anaconda3/bin/conda install -c conda-forge s3fs
+# conda version: 23.5.0
+-conda-forge/osx-arm64::openssl-3.2.1-h0d3ecfb_0
++conda-forge/noarch::aiobotocore-2.12.2-pyhd8ed1ab_0
++conda-forge/noarch::aioitertools-0.11.0-pyhd8ed1ab_0
++conda-forge/noarch::aiosignal-1.3.1-pyhd8ed1ab_0
++conda-forge/noarch::attrs-23.2.0-pyh71513ae_0
++conda-forge/noarch::botocore-1.34.51-pyge310_1234567_0
++conda-forge/noarch::fsspec-2024.3.1-pyhca7485f_0
++conda-forge/noarch::idna-3.6-pyhd8ed1ab_0
++conda-forge/noarch::jmespath-1.0.1-pyhd8ed1ab_0
++conda-forge/noarch::pysocks-1.7.1-pyha2e5f31_6
++conda-forge/noarch::s3fs-2024.3.1-pyhd8ed1ab_0
++conda-forge/noarch::urllib3-2.0.7-pyhd8ed1ab_0
++conda-forge/osx-arm64::aiohttp-3.9.3-py310hd125d64_1
++conda-forge/osx-arm64::brotli-python-1.1.0-py310h1253130_1
++conda-forge/osx-arm64::frozenlist-1.4.1-py310hd125d64_0
++conda-forge/osx-arm64::multidict-6.0.5-py310h8e9501a_0
++conda-forge/osx-arm64::openssl-3.2.1-h0d3ecfb_1
++conda-forge/osx-arm64::wrapt-1.16.0-py310hd125d64_0
++conda-forge/osx-arm64::yarl-1.9.4-py310hd125d64_0
++defaults/osx-arm64::async-timeout-4.0.3-py310hca03da5_0
+# update specs: ['s3fs']

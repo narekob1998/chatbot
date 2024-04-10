@@ -1,4 +1,4 @@
-#!/Users/narekbayramyan/Desktop/chatbot/venv/bin/python3.10
+#!/Users/narekbayramyan/Desktop/chatbot/venv/bin/python
 
 import sys
 import json
