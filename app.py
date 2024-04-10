@@ -18,7 +18,7 @@ load_dotenv()
 os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
-bucket_name = "chatbot-resume"
+bucket_name = "chatbot-resume-new"
 
 def get_pdf_text_from_s3(bucket_name, pdf_keys):
     s3 = boto3.client('s3', config=Config(signature_version='s3v4'))
