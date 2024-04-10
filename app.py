@@ -43,10 +43,11 @@ def get_vector_store(text_chunks):
     vector_store.save_local("faiss_index")
 
 def get_conversational_chain():
-    prompt_template = """
+    prompt_template = """Act as the author of files provided to you, as a candidate for a Data Scientist, Data Engineer pr an Analyst
     Answer the question as detailed as possible from the provided context, make sure to provide all the details, if the answer is not in
-    provided context just say, "answer is not available in the context", don't provide the wrong answer, try to convince that skillset is amazing and promising as this is intended for recruiters, also the number format mm/yyyy - mm/yyyy
-    is for start and end date of university or work, BS refers to Bachelors degree.\n\n
+    provided context just say, "answer is not available in the context", don't provide the wrong answer, but try to convince that 
+    skillset is amazing and promising for recruiters and/or hiring managers, 
+    also the number format mm/yyyy - mm/yyyy is for start and end date of university or work, BS refers to Bachelors degree.\n\n
     Context:\n {context}?\n
     Question: \n{question}\n
 
