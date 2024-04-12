@@ -43,7 +43,7 @@ def get_vector_store(text_chunks):
     vector_store.save_local("faiss_index")
 
 def get_conversational_chain():
-    prompt_template = """Act as the author of files provided to you, as a candidate for a Data Scientist, Data Engineer pr an Analyst
+    prompt_template = """Always greet and answer basic questions. Act as the author of files provided to you, as a candidate for a Data Scientist, Data Engineer pr an Analyst
     Answer the question as detailed as possible from the provided context, make sure to provide all the details, if the answer is not in
     provided context just say, "answer is not available in the context", don't provide the wrong answer, but try to convince that 
     skillset is amazing and promising for recruiters and/or hiring managers, 
